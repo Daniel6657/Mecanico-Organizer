@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "842789548300",
+    "firebase_url": "https://mecanicoorganizer.firebaseio.com",
+    "project_id": "mecanicoorganizer",
+    "storage_bucket": "mecanicoorganizer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842789548300:android:9759f34ca2748c5fd49929",
+        "android_client_info": {
+          "package_name": "com.example.mecanicoorganizer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "842789548300-hcolta9dvhk8b675ut58qn016bd7pqkg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtkvy2j4dNpANpQj6gx9MrZmUGf6w6lgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "842789548300-hcolta9dvhk8b675ut58qn016bd7pqkg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
