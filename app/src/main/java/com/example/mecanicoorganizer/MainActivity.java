@@ -38,6 +38,10 @@ public class MainActivity extends AppCompatActivity {
         signUp = findViewById(R.id.signup_textView);
         loginBtn = findViewById(R.id.login_button);
 
+        if(firebaseAuth.getCurrentUser() != null) {
+            startActivity(new Intent(getApplicationContext(), MainPanel.class));
+        }
+
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

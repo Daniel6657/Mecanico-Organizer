@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="7dp"
+    app:cardElevation="6dp"
+    android:elevation="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dodany \n 2dni temu"
+                android:gravity="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:id="@+id/garagedSinceDate"
+                android:textColor="#006edc"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Toyota"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:padding="5dp"
+                android:maxLines="1"
+                android:id="@+id/brand"
+                android:textColor="@color/font_dark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LU 642A1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:padding="5dp"
+                android:maxLines="1"
+                android:id="@+id/regNumber"
+                android:layout_below="@+id/brand"
+                android:textColor="@color/font_dark_light"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Corolla"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:padding="5dp"
+                android:maxLines="1"
+                android:id="@+id/model"
+                android:textColor="@color/font_dark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nietknięty"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:padding="5dp"
+                android:maxLines="1"
+                android:id="@+id/status"
+                android:layout_below="@+id/model"
+                android:textColor="@color/font_dark_light"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
