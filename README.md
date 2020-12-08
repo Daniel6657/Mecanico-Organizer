@@ -1,6 +1,6 @@
 # Mecanico-Organizer
-Android application to support mechanics with managing cars.
-Best to use with android 11.0 + (API 30)
+Android application to support mechanics with managing cars.<br>
+<b>Best to use with android 11.0 + (API 30)</b>
 
 Aplikacja Mecanico-Organizer rozwiązuje najczęstszy problem 21 wieku, 
 zapewne każdy spotkał się z sytuacją kiedy odawał samochów do mechanika z terminem na jutro, a mechanik zaczynał nad nim prace po 2 tygodniach. 
