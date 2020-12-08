@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
                                     Toast.LENGTH_LONG).show();
                         } else {
                             Toast.makeText(getApplicationContext(),
-                                    "Coś poszło nie tak, chwilowo nie jesteśmy w stanie Cię zalogować, ale najlepsi mecanicos rozwiązują ten problem",
+                                    "Nasi najlepsi Mecanicos donoszą, że podany email i hasło nie pasują do twojego garażu",
                                     Toast.LENGTH_LONG).show();
                         }
 

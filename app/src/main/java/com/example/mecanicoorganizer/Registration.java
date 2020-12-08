@@ -66,7 +66,8 @@ public class Registration extends AppCompatActivity {
                                     Toast.LENGTH_SHORT).show();
                         } else {
                             Toast.makeText(getApplicationContext(),
-                                    "Coś poszło nie tak, chwilowo nie jesteśmy w stanie utworzyć konta, ale najlepsi mecanicos rozwiązują ten problem",
+                                    "Checmy chronić twoje dane tak dobrze jak Ty chronisz swój garaż, więc hasło do twojego konta musi zawierać conajmniej 8 znaków, " +
+                                            "a email zawierać poprawny format, tak by go nie zapomnieć",
                                     Toast.LENGTH_LONG).show();
                         }
 
