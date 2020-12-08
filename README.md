@@ -11,5 +11,5 @@ Każdy mechanik widzi na bieżąco zmiany bez konieczności odświeżania aplika
 
 Aplikacja pozwala dodawać zdjęcia pojazdów, zmieniać ich statusy jak i dodawać niezbędne do zidentyfikowania pojazdu informacje. <br>
 W aplikacji jest również miejsce na zapisanie uwag klienta jak i diagnozy postawionej przez mechanika. <br>
-Dzięki podsumowaniu widocznym na górze głownego panelu aplikacji łatwo jesteśmy w stanie określić przybliżony czas oczekiwania na naprawe, <br>
+Dzięki podsumowaniu widocznym na górze głownego panelu aplikacji łatwo jesteśmy w stanie określić przybliżony czas oczekiwania na naprawe, 
 a korzystając z notatek zapisanych w aplikacji nie tracimy czasu na ponowną diagnoze. <br>
